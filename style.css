@@ -1,0 +1,54 @@
+nav {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: .75em;
+    color: white;
+    font-family: avenir;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size:cover;
+}
+
+.heading {
+    margin-left: 20px;
+}
+
+.comingSoon {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 7em;
+    text-align: center;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 300px;
+}
+
+#contact {
+    background-color: grey;
+    opacity: .8;
+    border: none;
+    font-weight: bold;
+    width: 150px;
+    height: 60px;
+}
+
+#atag {
+    margin: 70px auto;
+}
