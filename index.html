@@ -6,44 +6,86 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hayley Landsberg</title>
     <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="Logo-black.png"/>
 </head>
-<body>
-    <nav id="navbar">
-        <h3 class="heading">Hayley Landsberg</h3>
-        <!-- <ul>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">RESUME</a></li>
-        </ul> -->
-        <!-- <ul id="social-direction">
-            <li><img class="link-img" src="linkedin.png"></li>
-            <li><img class="link-img"  src="github.png"></li>
-            <li><img class="link-img"  src="twitter.png"></li> -->
-            <!-- <li><img class="link-img"  src="instagram.png"></li> -->
-        <!-- </ul> -->
-    </nav>
-    <article>
-        <div class="flex1">
-        <h1 class="comingSoon">Coming Soon</h1>
-        <a href="mailto:hayleylandsberg@gmail.com?Subject=Hi there" target="_top" id="atag"><button type="button" id="contact" class="btn btn-info btn-lg btn-danger">Contact Me</button></a>
-        
-        </div>
-        <!-- <section id="full-slogan">
-            <p class="slogan">Hi there!</p>
-            <p class="slogan">I'm <span class="red">Hayley Landsberg</span></p>
-            <p class="small-large">I'm a UI/UX Designer and Full-Stack Developer.</p>
-        </section>
-    </article>
-    <article class="links">
-        <img class="large-img" src="bubble-links.png" width="90%">
-    </article>
-    <article>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
-    </article>
-    <script src="main.js"></script>
+<body id="body">
 
+<div id="upper-flex">
+    <div id="upper-left">
+        <div id="upper-left-nav">
+            <img src="images/logo.png" alt="hl-logo" id="logo">
+            <div class="dropdown">
+                    <button id="menu-btn" class="dropbtn"><img src="images/menu-bar-lg.png" id="menu" alt="hl-menu-bar"></button>
+                    <div class="dropdown-content">
+                      <a href="about.html">ABOUT</a>
+                      <a href="projects.html">PROJECTS</a>
+                      <a href="about.html">RESUME</a>
+                      <a href="about.html">CONTACT</a>
+                    </div>
+                  </div>
+        </div>
+        <div id="heading-section">
+            <h1 class="head-caption">Creator.</h1>
+            <h1 class="head-caption">Designer.</h1>
+            <h1 class="head-caption">Developer.</h1>
+        </div>
+        <div id="social-links">
+            <a href="http://www.linkedin.com/in/hayleyvheath" target=”_blank”><span class="social-link">LINKEDIN</span></a>
+            <a href="http://www.github.com/hayleylandsberg" target=”_blank”><span class="social-link">GITHUB</span></a>
+            <a href="http://www.twitter.com/hayleylandsberg" target=”_blank”><span class="social-link">TWITTER</span></a>
+            <a href="http://www.instagram.com/hayleylandsberg" target=”_blank”><span class="social-link">INSTAGRAM</span></a>
+        </div>
+    </div>
+    <div id="upper-right">
+        <img src="images/smaller-personal.jpeg" id="right-img" alt="personal image">
+    </div>
+</div>
+<!-- ABOUT SECTION -->
+<div class="white-bkgd">
+<div id="about-section">
+    <div id="about">
+        <img src="images/stick-dog-drawing-25.jpg" alt="doodle" id="dog">
+        <h2>Hi, I'm Hayley Landsberg.</h2>
+        <h3>A UX/UI Designer and Full Stack Developer currently based in Nashville.</h3>
+    </div>
+    <div>
+        <a href="about.html"><button id="about-btn">MORE ABOUT HAYLEY</button></a>
+    </div>
+</div>
+<!-- FEATURED PROJECT -->
+<div id="featured" class="white-bkgd">
+    <h5 id="featured-heading">FEATURED PROJECT</h5>
+    <div id="featured-project" class="box">
+        <div id="project-description">
+            <h2 id="featured-h2">Cue.</h2>
+            <h4>A Personal Medical Management Application</h4>
+            <h5>Cue is geared towards users with chronic illnesses that need to manage their symptoms and medications. Cue also gives the user tools to better communicate their health issues with their health providers.</h5>
+            <a href="projects/cue.html"><button id="project-btn">VIEW FULL PROJECT</button></a>
+        </div>
+        <div id="project-photo">
+            <img src="images/cue-laptop-blue.png" alt="laptop" id="project-photo">
+        </div>
+    </div>
+        <div>
+            <a href="projects.html"><button id="projects-btn">VIEW ALL PROJECTS</button></a>
+        </div>
+</div>
+</div>
+    <div>
+        <div>
+            <div id="index-contact">
+                <h1 id="heading-contact">Get in touch.</h1>
+                <p class="contact-info">Nashville, TN</p>
+                <p class="contact-info">310.882.3105</p>
+                <p class="contact-info">hayleylandsberg@gmail.com</p>
+            </div>
+            <div></div>
+        </div>
+    </div>
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
