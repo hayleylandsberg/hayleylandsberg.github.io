@@ -368,3 +368,12 @@
     flex-direction: row;
     justify-content: center;
 }
+
+
+
+/* ======== MEDIA QUERY ======== */
+@media (min-width: 0px) and (max-width: 767px) {
+.sm-hidden {
+    visibility: hidden;
+}
+}
