@@ -375,5 +375,7 @@
 @media (min-width: 0px) and (max-width: 767px) {
 .sm-hidden {
     visibility: hidden;
+    width: 0px;
+    height: 0px;
 }
 }
