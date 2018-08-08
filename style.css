@@ -378,4 +378,21 @@
     width: 0px;
     height: 0px;
 }
+
+#about-name {
+    font-size: 5em;
+}
+
+#skills-container {
+    margin: 0 auto;
+}
+
+#social-links {
+    max-width: 300px;
+    line-height: 40px;
+}
+
+#heading-section {
+    margin-bottom: 250px;
+}
 }
