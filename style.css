@@ -6,6 +6,10 @@
     background-color: #FDFDFD;
 }
 
+.gray-bkg {
+    background-color: lightgray
+}
+
 /* UPPER NAV */
 #upper-flex {
     display: flex;
@@ -21,7 +25,12 @@
     width: 700px;
 }
 
+.margin-right {
+    margin-right: 60px;
+}
+
 #upper-left-nav {
+    background-color: #080808;
     margin-bottom: 100px;
     margin-top: 40px;
     margin-left: 60px;
@@ -37,11 +46,10 @@
 
 .head-caption {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     color: #FDFDFD;
 }
 
-#social-links {
+#social-links { 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -269,10 +277,10 @@
 
   #heading-contact {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 4em;
+    font-weight: 700;
+    font-size: 5em;
     color:#FDFDFD;
-    padding-top: 100px;
+    padding-top: 80px;
     margin-left: 10px;
   }
 
@@ -353,4 +361,10 @@
 
 #a-email {
     color: #FDFDFD;
+}
+
+#skills-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

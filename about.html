@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hayley Landsberg - About</title>
+    <link href="timeline.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -12,14 +13,159 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/Logo-black.png"/>
 </head>
-<body>
-<div id="flex-coming-soon">
-    <h1 id="coming-soon">Oops!</h1>
-    <h1>This page is still under construction.</h1>
-    <img src="images/stick-dog-drawing-25.jpg" alt="doodle" id="dog-coming-soon">
-    <div class="coming-soon-btns">
-        <a href="index.html"><button id="home-btn">BACK TO HOME</button></a>
-        <a href="mailto:hayleylandsberg@gmail.com?Subject=Hi there" target="_top" id="atag"><button type="button" id="contact-coming-soon">CONTACT ME</button></a>
+<body id="body">
+<div>
+    <div id="bio">
+        <div id="upper-left-nav">
+            <a href="index.html"><img src="images/Logo.png" alt="hl-logo" id="logo"></a>
+            <div class="dropdown">
+                    <button id="menu-btn" class="dropbtn"><img src="images/menu-bar-lg.png" id="menu" class="margin-right" alt="hl-menu-bar"></button>
+                    <div class="dropdown-content">
+                      <a href="about.html">ABOUT</a>
+                      <a href="projects.html">PROJECTS</a>
+                      <a href="about.html">CONTACT</a>
+                    </div>
+        </div>
+    </div>
+        <div>
+            <h1 id="about-name">Hayley Landsberg</h1>
+            <div id="flex-bio">
+                <div>
+                    <p id="bio-description-1">A risk management professional turned UX/UI Designer and Full Stack Developer. In high school I took every computer science and graphic design course that was offered. I found nothing more exciting than taking a computer apart and attempting to rebuild it. In December 2011, after receiving my bachelors degree in Risk Management & Insurance from the University of Mississippi, I made the cross-country move to Los Angeles, CA. Fast forward six years later... I loved my office on the 45th floor, but something was missing.</p>
+                </div>
+                <div>
+                    <p id="bio-description-2">I decided to move back home to Nashville to find work that I was passionate about. Luckily I found Nashville Software School where I completed a UX/UI product design course along with a six month full-time web development program, which lead me to where I am today. I'm passionate about the user's experience and appreciate design thinking. On a personal note, I am a huge animal lover. I spend most of my free-time with my goldendoodle, AJ. I'm also an avid runner and enjoy swimming and pilates.</p>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="gray-bkg">
+<section id="skills-container">
+    <div id="skills-heading">
+      <h1>Skills</h1>
+    </div>
+    <div id="list-skills">
+      <div id="front-end">
+        <img src="images/paint-palette.png" width="45px" class="skill-section-img">
+        <ul>
+          <li>JavaScript ES6</li>
+          <li>React.js</li>
+          <li>jQuery</li>
+          <li>AJAX</li>
+          <li>JSON</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Grunt</li>
+          <li>Browserify</li>
+          <li>Sass/Less</li>
+        </ul>
+      </div>
+      <div id="back-end">
+        <img src="images/database.png" width="45px" class="skill-section-img">
+        <ul>
+          <li>Python</li>
+          <li>Django</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div id="dev-tools">
+        <img src="images/tools.png" width="45px" class="skill-section-img">
+        <ul>
+          <li>Git/Github</li>
+          <li>Firebase</li>
+          <li>NPM</li>
+          <li>AWS</li>
+          <li>Heroku</li>
+          <li>Sketch</li>
+          <li>Adobe CC</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="white-bkgd" id="experience">
+<section class="intro">
+    <div class="container">
+      <h1>Experience</h1>
+    </div>
+  </section>
+  
+  <section class="timeline">
+    <ul>
+      <!-- <li>
+        <div>
+          <time><h3>Aug 2018- Present</h3></time> 
+          <h4>Teaching Assistant - UX/UI Digital Product Design</h4>
+          <h5>Nashville Software School</h5>
+            <p>Teaching students UX/UI principles along with basic HTML and CSS</p>
+        </div>
+      </li> -->
+      <li>
+        <div>
+          <time><h3>Feb 2018 - Sept 2018</h3></time> 
+          <h4>UX/UI Designer & Full Stack Developer Apprentice</h4>
+          <h5>Nashville Software School</h5>
+            <p>Intensive full-time, eight month software development bootcamp
+            focusing on UX/UI design principles, HTML, CSS, Javascript, React and server-side
+            fundamentals with Python/ Django.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <time><h3>Aug 2017 - Feb 2018</h3></time>
+          <h4>Global Account Executive / Broker</h4>
+          <h5>Aon Risk Services</h5>
+          <p>As a part of an industry-leading team, I helped empower
+            results for our global clients by delivering innovative and
+            effective solutions as a part of the Construction Services
+            Group.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <time><h3>Nov 2012 - Dec 2016</h3></time>
+            <h4>Assistant Vice President</h4>
+            <h5>AmWINS Insurance Brokerage of CA</h5>
+            <p>Managed the marketing process for over 1,400 surplus lines,
+            primary casualty accounts and $50 million in client premium.
+            Provided coverage recommendations and industry expertise to
+            AmWINS Executive Brokers and provided education on Hospitality risk placement to AmWINS teams nationwide.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <time><h3>Jan 2012 - Oct 2012</h3></time>
+          <h4>Marketing Analyst</h4>
+          <h5>Brown & Brown Insurance of CA</h5>
+          <p>Performed all aspects of the marketing process from initial submission to binding of coverage. Received comprehensive sales education in both Inside Sales and Outside sales.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <time><h3>Aug 2008 - Dec 2011</h3></time>
+          <h4>Bachelor of Business Administration</h4>
+          <h4>Finance - Risk Management & Insurance</h4>
+          <h5>University of Mississippi</h5>
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>
+
+<div>
+    <div>
+        <div id="index-contact">
+            <h1 id="heading-contact">Get in touch.</h1>
+            <p class="contact-info">Nashville, TN</p>
+            <p class="contact-info">310.882.3105</p>
+            <a href="mailto:hayleylandsberg@gmail.com?Subject=Hi there" target="_top" id="a-email"><p class="contact-info">hayleylandsberg@gmail.com</p></a>
+        </div>
+        <div></div>
     </div>
 </div>
+
+<script src="timeline.js"></script>
 </body>
+</html>
