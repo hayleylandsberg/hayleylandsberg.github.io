@@ -155,3 +155,8 @@
 #tech-flex h5 {
     font-size: 1.1em;
 }
+
+#project-phone {
+    height: 350px;
+    margin-right: 90px;
+}
