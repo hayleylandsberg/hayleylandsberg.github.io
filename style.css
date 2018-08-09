@@ -1,4 +1,8 @@
-#body {
+#black {
+    background-color: #080808;
+}
+
+.black {
     background-color: #080808;
 }
 
@@ -7,7 +11,11 @@
 }
 
 .gray-bkg {
-    background-color: lightgray
+    background-color: lightgray;
+}
+
+.lightblue {
+    background-color: #BBF2FE;
 }
 
 /* UPPER NAV */
@@ -85,7 +93,6 @@
 }
 /* Dropdown Button */
 .dropbtn {
-    background-color: #080808;
     /* padding: 16px; */
     border: none;
 }
@@ -123,7 +130,9 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #080808;}
+.dropdown:hover .black {background-color: #080808;}
+
+.dropdown:hover .lightblue {background-color: #BBF2FE}
 
 
 
