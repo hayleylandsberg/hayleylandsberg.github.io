@@ -1,3 +1,31 @@
+/* +++++++++ PROJECT +++++++ */
+#project-heading {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 60px;
+}
+
+#project-title {
+    font-size: 6em;
+    font-weight: bold;
+    color: #FDFDFD;
+}
+
+#project-holder {
+    padding: 50px 0;
+}
+
+#project-sub-headline {
+    font-family: 'Scope One', serif;
+    font-size: 1.5em;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: #FDFDFD
+}
+
+/* +++++++++ CUE +++++++++ */
 #cue-heading {
     padding-top: 100px;
     padding-bottom: 30px;
