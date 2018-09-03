@@ -79,8 +79,19 @@
     padding-bottom: 100px;
 }
 
+#rhino-padding {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 #cue-paragraph-1 {
-    width: 320px;
+    width: 30%;
     margin-right: 100px;
     font-size: 1.47em;
 }
@@ -159,4 +170,63 @@
 #project-phone {
     height: 350px;
     margin-right: 90px;
+}
+
+#rhino-one-paragraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.47em;
+}
+
+#rhino-one {
+    width: 40%;
+    margin-right: 80px;
+}
+
+#rhino-two {
+    width: 50%;
+}
+/* #rhino-two-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1500px;
+    font-size: 1.47em;
+    text-align: left;
+} */
+
+.research-bullet {
+    margin-left: 40px;
+}
+
+#font-standard {
+    font-size: 1.47em;
+}
+
+#SWOT-1 {
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+#interview-spacing {
+    margin: 30px 0 30px 0;
+}
+
+#flex-interview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#interview-margin {
+    margin-right: 30px;
+}
+
+#margin-protoptype {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
 }
