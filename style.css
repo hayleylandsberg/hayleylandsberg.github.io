@@ -209,6 +209,18 @@
     margin-top: 50px;
 }
 
+#featured-project-green {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #C6ECB2;
+    padding: 40px 0 40px 40px; 
+    margin-top: 50px;
+}
+
 #project-description {
     max-width: 450px;
     text-align: left;
@@ -245,6 +257,22 @@
 }
 
 #project-btn-purple:hover {
+    background-color: #080808;
+    color:  #FDFDFD;
+}
+
+#project-btn-green {
+    margin-top: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #C6ECB2;
+    border: 3px solid #080808;
+    color: #080808;
+    padding: 15px 30px;
+    margin-bottom: 60px;
+    transition-duration: 0.7s;
+}
+
+#project-btn-green:hover {
     background-color: #080808;
     color:  #FDFDFD;
 }
