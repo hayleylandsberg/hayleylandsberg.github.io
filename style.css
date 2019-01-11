@@ -18,6 +18,10 @@
     background-color: #BBF2FE;
 }
 
+.lightgreen {
+    background-color: #C6ECB2;
+}
+
 .lightpurple {
     background-color: #EAC5F6;
 }
@@ -138,7 +142,7 @@
 
 .dropdown:hover .lightblue {background-color: #BBF2FE}
 
-
+.dropdown:hover .lightgreen {background-color: #C6ECB2}
 
 
 /* ABOUT / FEATURED SECTION */
